@@ -1,5 +1,5 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/src/index.ts" }],
   "build": {
     "env": {
       "NODEJS_HELPERS": "0"
