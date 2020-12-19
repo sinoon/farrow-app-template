@@ -1,9 +1,10 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
+  "engines": {
+    "node": "12.x"
+  },
+  "build": {
+    "env": {
+      "NODEJS_HELPERS": "0"
     }
-  ]
+  }
 }
