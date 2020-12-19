@@ -4,7 +4,7 @@ import { router as api } from './api'
 import { router as pages } from './pages'
 import { Action2Api } from './middleware/Action2Page'
 
-export const http = Http({
+const http = Http({
   basenames: ['/base'],
 })
 
@@ -22,3 +22,4 @@ http.listen(3002, () => {
   console.log(`server started at http://localhost:3002`)
 })
 
+export default http
