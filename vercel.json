@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": "12.x"
-  },
   "build": {
     "env": {
       "NODEJS_HELPERS": "0"
