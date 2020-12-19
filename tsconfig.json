@@ -9,7 +9,6 @@
     "importHelpers": true,
     "module": "CommonJS",
     "moduleResolution": "node",
-    "newLine": "LF",
     "allowJs": true,
     "strict": true,
     "skipLibCheck": true,
