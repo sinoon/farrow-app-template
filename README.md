@@ -1,12 +1,8 @@
-# farrow-example
-
 <p align='center'>
   <img src='https://repository-images.githubusercontent.com/322856776/d39c8800-4250-11eb-8bec-8e595537992c' width='600'/>
 </p>
 
 <br />
-
-An **todo-list** example for farrow-http
 
 <br />
 
@@ -28,14 +24,17 @@ yarn install
 npm start
 
 # or
+
 yarn start
 ```
 
 ## build & run
 
 ```shell
+# build
 yarn build
 
+# run
 yarn start
 ```
 
