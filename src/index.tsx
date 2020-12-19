@@ -4,7 +4,7 @@ import { router as api } from './api'
 import { router as pages } from './pages'
 import { Action2Api } from './middleware/Action2Page'
 
-const http = Http({
+export const http = Http({
   basenames: ['/base'],
 })
 
@@ -21,3 +21,4 @@ http.route('/api').use(api)
 http.listen(3002, () => {
   console.log(`server started at http://localhost:3002`)
 })
+
